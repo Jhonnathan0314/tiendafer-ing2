@@ -1,0 +1,414 @@
+.background{
+    background-image: url("../imagenes/fondoPrincipal.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: scroll;
+}
+
+.logo{
+    margin-left: 25%;
+    
+    width: 50%;
+    height: 50%;
+
+    opacity: 85%;
+}
+
+.buttonContainer{
+    padding: 0%;
+
+    margin-left: 5%;
+
+    width: 20%;
+    height: 100%;
+
+    float: left;
+}
+
+.menuButtom{
+    margin-top: 5%;
+    margin-left: 2%;
+
+    width: 95%;
+    height: 43px;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 1, 56, 0.85);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.menuButtom:hover{
+    background-color: rgba(9, 94, 9, 0.85);
+}
+
+.menuButtomGreen{
+    margin-top: 5%;
+    margin-left: 2%;
+
+    width: 95%;
+    height: 43px;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 102, 26, 0.9);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.volver{
+    width: 60px;
+    height: 60px;
+
+    margin-top: 2%;
+    margin-left: 2%;
+
+    float: left;
+}
+
+.avisos{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+    margin-left: 6%;
+
+    float: left;
+}
+
+.productosEscasos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+
+    margin-top: 8%;
+    margin-left: 12%;
+
+    float: left;
+}
+
+
+
+.textoResultados{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.iconoSeccion{
+    border: 0;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+
+    float: left;
+}
+
+.frutasButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+    
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/frutas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.bebidasButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.abarrotesButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/abarrotes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.panaderiaButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/panaderia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.golosinasButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/golosinas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.medicamentosButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/medicamentos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.refrigeradosButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/refrigerados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.licorButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/licores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.aseoButtom{
+    margin-top: 2%;
+    margin-left: 5%;
+
+    width: 150px;
+    height: 99px;
+
+    background-image: url(../imagenes/aseo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 0;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    float: left;
+}
+
+.whiteSquare{
+     border: 2px solid white;
+     border-radius: 10px;
+     
+     background: rgba(255, 255, 255, 0.6);
+
+     margin-left: 5%;
+     margin-top: 23%;
+
+     width: 90%;
+     height: 30%;
+}
+
+.seccionText{
+	background: none;
+	border: 0;
+	
+	margin-left: 2%;
+	
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+
+.seccionText:hover{
+    color: red;
+}
+
+.buttomSeccion{
+    width: 150px;
+    height: 44px;
+
+    margin-top: 5%;
+    margin-left: 5%;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgb(88, 190, 238);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.buttomSeccion:hover{
+    background-color: rgb(20, 97, 20);
+    color: white;
+}
+
+.container{
+    float: left;
+
+    margin-left: 10%;
+    margin-top: 3%;
+
+    width: 60%;
+    height: 510px;
+
+    border-radius: 40px;
+    background: rgba(12, 0, 39, 0.89);
+
+    overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.container::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.peTable{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+
+    width: 90%;
+	height: auto;
+
+    margin-left: 2%;
+    
+    border-radius: 10px;
+}
+
+#div1 {
+    overflow:scroll;
+    width: 60%;
+    height: 510px;
+}
+
+#div1 table {
+   width:95%;
+}
+
+table {
+   border-collapse: separate;
+   border-spacing: 5px;
+   color: #fff;
+}
+
+td, th {
+   background: #fff;
+   color: #000;
+}

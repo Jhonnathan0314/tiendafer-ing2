@@ -1,0 +1,109 @@
+.background{
+    background-image: url("../../imagenes/fondoPrincipal.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: scroll;
+}
+
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+}
+
+.window-notice .addContent {
+    background: rgb(0, 1, 65);
+    
+    margin-top: 8%;
+    margin-left: 30%;
+
+    width: 500px;
+    height: 300px;
+
+    border-radius: 30px;
+    
+    position: relative;
+    padding: 2rem;
+}
+
+.textField{
+    color: rgb(255, 255, 255);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.dataField{
+    margin-left: 22%;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width: 55%;
+    height: 17%;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.addButtom{
+    margin-top: 5%;
+    margin-left: 25%;
+
+    width: 50%;
+    height: 17%;
+
+    border: 0;
+    border-radius: 20px;
+    background: #21974e;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.addButtom:hover{
+    background-color: #105a2d;
+}
+
+.cancelButtom{
+    margin-top: 5%;
+    margin-left: 25%;
+
+    width: 50%;
+    height: 17%;
+
+    border: 0;
+    border-radius: 20px;
+    background: #c93939;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.cancelButtom:hover{
+    background-color: #801b1b;
+}
+
+.volver{
+    width: 60px;
+    height: 60px;
+
+    margin-top: 2%;
+    margin-left: 2%;
+
+    float: left;
+}

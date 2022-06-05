@@ -1,0 +1,320 @@
+.background{
+    background-image: url("../../imagenes/fondoPrincipal.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: scroll;
+}
+
+.logo{
+    margin-left: 25%;
+    
+    width: 50%;
+    height: 50%;
+
+    opacity: 85%;
+}
+
+.buttonContainer{
+    padding: 0%;
+
+    margin-left: 5%;
+
+    width: 20%;
+    height: 100%;
+
+    float: left;
+}
+
+.menuButtom{
+    margin-top: 5%;
+    margin-left: 2%;
+
+    width: 95%;
+    height: 43px;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 1, 56, 0.85);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.menuButtom:hover{
+    background-color: rgba(9, 94, 9, 0.85);
+}
+
+.menuButtomGreen{
+    margin-top: 5%;
+    margin-left: 2%;
+
+    width: 95%;
+    height: 43px;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 102, 26, 0.9);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.container{
+    float: left;
+
+    margin-left: 10%;
+    margin-top: 3%;
+
+    width: 60%;
+    height: 510px;
+
+    border-radius: 40px;
+    background: rgba(12, 0, 39, 0.89);
+
+
+    overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.container::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.productosEscasos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+
+    margin-top: 8%;
+    margin-left: 12%;
+
+    float: left;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.peTable{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+
+    width: 90%;
+
+    margin-left: 5%;
+    
+    border-radius: 10px;
+}
+
+.textoResultados{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.textField{
+    color: rgb(255, 255, 255);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.dataField{
+    margin-left: 22%;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width: 55%;
+    height:8%;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dataSearchField{
+    margin-left: 15%;
+
+    background: #77c4f0;;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width: 55%;
+    height:8%;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+    float: left;
+}
+
+.checkBox{
+    margin-left: 47%;
+
+    width: 6%;
+    height: 6%;
+
+    border-radius: 5px;
+}
+
+.addButtom{
+    margin-top: 5%;
+    margin-left: 25%;
+
+    width: 50%;
+    height: 12%;
+
+    border: 0;
+    border-radius: 20px;
+    background: #21974e;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.addButtom:hover{
+    background-color: #105a2d;
+}
+
+.cancelButtom{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+
+    width: 50%;
+    height: 12%;
+
+    border: 0;
+    border-radius: 20px;
+    background: #c93939;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.cancelButtom:hover{
+    background-color: #801b1b;
+}
+
+.inactiveButtom{
+    margin-top: 3%;
+    margin-left: 25%;
+
+    width: 50%;
+    height: 12%;
+
+    border: 0;
+    border-radius: 20px;
+    background: #c9a739;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.inactiveButtom:hover{
+    background-color: #866e1d;
+}
+
+select {
+  border: 0;
+  background: rgba(64, 138, 225, 0.7);
+  background-size: contain;
+
+  flex: 3;
+  padding: 0 5%;
+  color: #1a008b;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.select {
+  margin-left: 15%;
+  position: relative;
+  display: flex;
+  width: 70%;
+  height: 50px;
+  line-height: 3.5;
+  background: rgba(64, 129, 225, 0.767);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  right: 0;
+  padding: 0 4%;
+  background: #1a008b;
+  cursor: pointer;
+  transition: 0.25s all ease;
+}
+
+.select:hover::after {
+  color: rgba(64, 138, 225);
+}
+
+.selectText {
+  color: white;
+}
+
+.lupaIcon{
+    margin-left: 2%;
+
+    width: 7%;
+    height: 9%;
+}
+
+.lupaIcon:hover{
+    margin-left: 2%;
+
+    width: 8%;
+    height: 10%;
+}
+
+.volver{
+    width: 60px;
+    height: 60px;
+
+    margin-top: 2%;
+    margin-left: 2%;
+
+    float: left;
+}

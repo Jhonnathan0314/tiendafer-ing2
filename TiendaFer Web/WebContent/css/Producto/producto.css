@@ -1,0 +1,263 @@
+.background{
+    background-image: url("../../imagenes/fondoPrincipal.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    overflow: scroll;
+}
+
+.logo{
+    margin-left: 25%;
+    
+    width: 50%;
+    height: 50%;
+
+    opacity: 85%;
+}
+
+.buttonContainer{
+    padding: 0%;
+
+    margin-left: 5%;
+
+    width: 20%;
+    height: 100%;
+
+    float: left;
+}
+
+.menuButtom{
+    margin-top: 5%;
+    margin-left: 2%;
+
+    width: 95%;
+    height: 43px;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 1, 56, 0.85);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.menuButtom:hover{
+    background-color: rgba(9, 94, 9, 0.85);
+}
+
+.menuButtomGreen{
+    margin-top: 5%;
+    margin-left: 2%;
+
+    width: 95%;
+    height: 43px;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 102, 26, 0.9);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.container{
+    float: left;
+
+    margin-left: 10%;
+    margin-top: 3%;
+
+    width: 60%;
+    height: 510px;
+
+    border-radius: 40px;
+    background: rgba(12, 0, 39, 0.89);
+
+
+    overflow: scroll;
+}
+
+.container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.container::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.productosEscasos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+
+    margin-top: 8%;
+    margin-left: 12%;
+
+    float: left;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.textoResultados{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.buttomCrud{
+    width: 150px;
+    height: 44px;
+
+    margin-top: 2%;
+    margin-left: 11%;
+
+    bottom: 0;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgb(88, 190, 238);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.buttomCrud:hover{
+    background-color: rgb(20, 97, 20);
+    color: white;
+}
+
+.buttom{
+    width: 150px;
+    height: 44px;
+
+    margin-left: 11%;
+
+    border: 0;
+    border-radius: 20px;
+
+    background: rgb(7, 107, 7);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+}
+
+.buttom:hover{
+    background-color: rgb(9, 59, 9);
+}
+
+.textField{
+    color: rgb(255, 255, 255);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dataField{
+    margin-left: 22%;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width: 55%;
+    height:8%;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.peTable{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+
+    width: 90%;
+	height: auto;
+
+    margin-left: 2%;
+    
+    border-radius: 10px;
+}
+
+#div1 {
+    overflow:scroll;
+    width: 60%;
+    height: 510px;
+}
+
+#div1 table {
+   width:95%;
+}
+
+table {
+   border-collapse: separate;
+   border-spacing: 5px;
+   color: #fff;
+}
+
+td, th {
+   background: #fff;
+   color: #000;
+}
+
+.volver{
+    width: 60px;
+    height: 60px;
+
+    margin-top: 2%;
+    margin-left: 2%;
+
+    float: left;
+}
+
+.detailButtom{
+    width: 100%;
+    height: 25px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background: rgb(153, 207, 121);
+}
+
+.detailButtom:hover{
+	background: rgb(108, 158, 79);
+}
+
+.textDeleteButtom{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+
+    text-decoration: none;
+}
